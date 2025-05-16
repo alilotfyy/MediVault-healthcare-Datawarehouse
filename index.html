@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>mediVault - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background: #006d77;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .nav-buttons {
+      margin-top: 30px;
+    }
+    .nav-buttons a button {
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      color: white;
+      background-color: #83c5be;
+      transition: 0.3s;
+    }
+    .nav-buttons a button:hover {
+      background-color: #055b5c;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .feature-box {
+      flex: 1;
+      min-width: 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .feature-box h3 {
+      color: #006d77;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Welcome to mediVault</h1>
+    <p>Secure. Seamless. Smart medical data management for patients and doctors.</p>
+    <div class="nav-buttons">
+      <a href="login.html"><button>Login</button></a>
+      <a href="register.html"><button>Register as Patient</button></a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 style="text-align:center;">Our Features</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Appointments</h3>
+        <p>Book, approve, and track appointments with full transparency and reminders.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Medical Reports</h3>
+        <p>Doctors can upload visit notes and PDF reports securely to each patient profile.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Insurance Info</h3>
+        <p>Patients can upload and manage insurance details for smooth billing workflows.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Role-Based Access</h3>
+        <p>Separate dashboards for doctors and patients to keep tasks simple and secure.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; <?= date('Y') ?> mediVault. Built with ❤️ for better healthcare.
+  </footer>
+
+</body>
+</html>

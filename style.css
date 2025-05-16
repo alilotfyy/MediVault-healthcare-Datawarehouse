@@ -1,0 +1,161 @@
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #006d77;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #006d77;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 2px solid #006d77;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: #006d77;
+  color: white;
+}
+
+/* Form & Inputs */
+form {
+  margin-top: 20px;
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #83c5be;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #006d77;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #edf6f9;
+}
+
+/* Section headings */
+h2, h3 {
+  margin-bottom: 15px;
+  color: #006d77;
+}
+.logout-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.logout-btn:hover {
+  background-color: darkred;
+}
+.success-msg {
+  background-color: #e7f9ed;
+  border-left: 6px solid #4CAF50;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #2e7d32;
+}
+.success-msg {
+  background-color: #e7f9ed;
+  border-left: 6px solid #4CAF50;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #2e7d32;
+  font-size: 16px;
+}
+.error-msg {
+  background-color: #f8d7da;
+  border-left: 6px solid #f44336;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+  color: #721c24;
+}
+header p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #e0f7fa;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 16px;
+}
